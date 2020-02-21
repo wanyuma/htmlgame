@@ -1,64 +1,177 @@
 {
     "A": [
         {
-            "type": "普通勾选组",
-            "miaosu": "异世界属性",
-            "gou_list": [
+            "type": "普通单一勾选组",
+            "text": "这个异世界的人竟然会",
+            "data_list": [
                 {
-                    "miaosu": "玄幻修真"
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_SX|=|1"
+                        }
+                    ],
+                    "text": "玄幻修真"
                 },
                 {
-                    "miaosu": "奇幻魔法"
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_SX|=|2"
+                        }
+                    ],
+                    "text": "奇幻魔法"
                 },
                 {
-                    "miaosu": "异能"
-                }                
-            ]
-        },
-        {
-            "type": "普通勾选组",
-            "miaosu": "时代感",
-            "gou_list": [
-                {
-                    "miaosu": "古代"
-                },
-                {
-                    "miaosu": "原始人"
-                },
-                {
-                    "miaosu": "末日"
-                }
-            ]
-        }, 
-        {
-            "type": "普通勾选组",
-            "miaosu": "穿越后玩家武力成长属性",
-            "gou_list": [
-                {
-                    "miaosu": "正常普通"
-                },
-                {
-                    "miaosu": "龙傲天"
-                },
-                {
-                    "miaosu": "弱鸡"
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_SX|=|3"
+                        }
+                    ],
+                    "text": "异能"
                 }
             ]
         },
         {
-            "type": "普通勾选组",
-            "miaosu": "异性吸引力",
-            "gou_list": [
+            "type": "普通单一勾选组",
+            "text": "时代上类似于",
+            "data_list": [
                 {
-                    "miaosu": "正常普通"
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_SD|=|1"
+                        }
+                    ],
+                    "text": "古代"
                 },
                 {
-                    "miaosu": "超级魅力"
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_SD|=|2"
+                        }
+                    ],
+                    "text": "原始人"
                 },
                 {
-                    "miaosu": "绝对嫌弃"
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_SD|=|3"
+                        }
+                    ],
+                    "text": "末日"
                 }
             ]
-        }         
+        },
+        {
+            "type": "普通单一勾选组",
+            "text": "穿越后自身的武力值是",
+            "data_list": [
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "ZJ_WULICZ|=|1"
+                        }
+                    ],
+                    "text": "正常普通"
+                },
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "ZJ_WULICZ|=|2"
+                        }
+                    ],
+                    "text": "龙傲天"
+                },
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "ZJ_WULICZ|=|3"
+                        }
+                    ],
+                    "text": "弱鸡"
+                }
+            ]
+        },
+        {
+            "type": "普通单一勾选组",
+            "text": "穿越后自身的异性吸引力是",
+            "data_list": [
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "ZJ_YXXYL|=|1"
+                        }
+                    ],
+                    "text": "正常普通"
+                },
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "ZJ_YXXYL|=|2"
+                        }
+                    ],
+                    "text": "超级魅力"
+                },
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "ZJ_YXXYL|=|3"
+                        }
+                    ],
+                    "text": "绝对嫌弃"
+                }
+            ]
+        },
+        {
+            "type": "普通单一勾选组",
+            "text": "穿越后",
+            "data_list": [
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_CYTYPE|=|1"
+                        }
+                    ],
+                    "text": "还可以回来现在的世界，太好了！"
+                },
+                {
+                    "runjs": [
+                        {
+                            "type": "主角世界变化",
+                            "js_txt": "SJ_CYTYPE|=|2"
+                        }
+                    ],
+                    "text": "就不能回到现在世界了！只有一次机会"
+                }
+            ]
+        },
+        {
+            "type": "普通单一选项组",
+            "data_list": [
+                {
+                    "text": "。。。。",
+                    "sleeptime": 1,
+                    "runjs": [
+                        {
+                            "type": "普通对话",
+                            "duihua": "然后？"
+                        }
+                    ],
+                    "changjin": "对话剧情",
+                    "juqin": "开始对话剧情4"
+                }
+            ]
+        }
     ]
 }

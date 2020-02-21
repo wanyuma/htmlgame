@@ -67,20 +67,21 @@
             "sleeptime": 1
         },
         {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "真武大陆(默认)",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情4"
-        },
-        {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "其它大陆(自己设定)",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情4"
+            "type": "普通单一选项组",
+            "data_list": [
+                {
+                    "text": "真武世界(默认)",
+                    "sleeptime": 1,
+                    "changjin": "对话剧情",
+                    "juqin": "默认世界设定"
+                },
+                {
+                    "text": "其它世界(自己设定)",
+                    "sleeptime": 1,
+                    "changjin": "对话剧情",
+                    "juqin": "世界设定"
+                }
+            ]
         }
     ]
 }

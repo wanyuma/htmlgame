@@ -1,0 +1,57 @@
+{
+    "A": [
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君激动得开始颤抖，",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "最后忍不住跳起了不知道哪里学来的舞步！",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "是穿越！还有金手指！",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君最渴望的事情就是穿越了，",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君头脑中浮现出了各种计划！",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "然后？",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通单一选项组",
+            "data_list": [
+                {
+                    "text": "开始做去异世界的准备。",
+                    "sleeptime": 1,
+                    "changjin": "家",
+                    "juqin": "家剧情1"
+                },
+                {
+                    "text": "什么计划？现在就马上穿越！",
+                    "sleeptime": 1,
+                    "changjin": "异世界",
+                    "juqin": "异世界剧情1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "B":"普通对话场景",
+    "B": "普通对话场景",
     "A": [
         {
             "type": "普通对话",
@@ -40,32 +40,49 @@
         {
             "type": "普通对话",
             "touxiang": "无",
-            "duihua": "中二之心大起，准备",
+            "duihua": "中二之心大起，",
             "sleeptime": 1
         },
         {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "摆出中二的姿势，对着传家宝大布袋，喊了一声，认我为主把，宝贝！",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情2"
-        },
-        {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "去找把水果刀，割开自己的皮肤，给传家宝大布袋滴血认主！",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情2"
-        },
-        {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "拿起袋子对着地板的其它杂物，心里默念，收！",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情2"
+            "type": "普通单一选项组",
+            "data_list": [
+                {
+                    "text": "拿起袋子默念，认我为主把，宝贝！",
+                    "sleeptime": 1,
+                    "runjs": [
+                        {
+                            "type": "普通对话",
+                            "duihua": "这布袋震动了一下，然后？"
+                        }
+                    ],
+                    "changjin": "对话剧情",
+                    "juqin": "开始对话剧情2"
+                },
+                {
+                    "text": "去找把水果刀，割开了自己的皮肤，给传家宝大布袋滴血认主！",
+                    "sleeptime": 1,
+                    "runjs": [
+                        {
+                            "type": "普通对话",
+                            "duihua": "宝贵的血液竟然消失不见了！然后？"
+                        }
+                    ],
+                    "changjin": "对话剧情",
+                    "juqin": "开始对话剧情2"
+                },
+                {
+                    "text": "拿起袋子对着地板的其它杂物，心里默念，收！",
+                    "sleeptime": 1,
+                    "runjs": [
+                        {
+                            "type": "普通对话",
+                            "duihua": "是错觉么？杂物似乎真的动了一下，然后？"
+                        }
+                    ],
+                    "changjin": "对话剧情",
+                    "juqin": "开始对话剧情2"
+                }
+            ]
         }
     ]
 }

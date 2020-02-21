@@ -33,24 +33,37 @@
         {
             "type": "普通对话",
             "touxiang": "无",
-            "duihua": "毫无疑问，现在的情况很危急。",
+            "duihua": "情况很复杂，毛君决定。",
             "sleeptime": 1
         },
         {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "待在原地，静待变化",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情3"
-        },
-        {
-            "type": "普通选项",
-            "xuanxiang_type": "nomal",
-            "text": "跑，跑得远远的",
-            "sleeptime": 1,
-            "changjin": "对话剧情",
-            "juqin":"开始对话剧情3"
+            "type": "普通单一选项组",
+            "data_list": [
+                {
+                    "text": "待在原地，静待变化",
+                    "sleeptime": 1,
+                    "runjs": [
+                        {
+                            "type": "普通对话",
+                            "duihua": "然后？"
+                        }
+                    ],
+                    "changjin": "对话剧情",
+                    "juqin": "开始对话剧情3"
+                },
+                {
+                    "text": "跑，跑得远远的",
+                    "sleeptime": 1,
+                    "runjs": [
+                        {
+                            "type": "普通对话",
+                            "duihua": "毛君正准备跑了，但现场似乎平静了下来"
+                        }
+                    ],
+                    "changjin": "对话剧情",
+                    "juqin": "开始对话剧情3"
+                }
+            ]
         }
     ]
 }
