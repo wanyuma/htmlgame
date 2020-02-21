@@ -1,0 +1,86 @@
+{
+    "A": [
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "布袋在闪耀了片刻后，还是慢慢地掉落在了地上",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君慢慢靠近。想搞清楚到底是什么回事",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "异常现象又发生了！",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君的头开始莫名痛了起来，",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "就像是有人把东西挤进你脑子里面",
+            "sleeptime": 1
+        },
+        {
+            "type": "有头像的对话",
+            "touxiang": "惊讶头像",
+            "duihua": "我知道了，我知道了！",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君脑海中浮现出了关于这个布袋的说明",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "它就是玄幻小说中的储物袋,",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "并且还可以通过一些方式提升里面的空间",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "它还能帮助你穿越到另外一个世界，",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "那个世界的名字叫做",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通选项",
+            "xuanxiang_type": "nomal",
+            "text": "真武大陆(默认)",
+            "sleeptime": 1,
+            "changjin": "对话剧情",
+            "juqin":"开始对话剧情4"
+        },
+        {
+            "type": "普通选项",
+            "xuanxiang_type": "nomal",
+            "text": "其它大陆(自己设定)",
+            "sleeptime": 1,
+            "changjin": "对话剧情",
+            "juqin":"开始对话剧情4"
+        }
+    ]
+}

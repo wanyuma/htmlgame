@@ -1,0 +1,56 @@
+{
+    "A": [
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "这古朴的传家宝大布袋有了无法想象的变化",
+            "sleeptime": 1
+        },
+        {
+            "type": "有头像的对话",
+            "touxiang": "惊讶头像",
+            "duihua": "天啊，它在发光！",
+            "sleeptime": 1
+        },
+        {
+            "type": "有头像的对话",
+            "touxiang": "惊讶头像",
+            "duihua": "它还飞起来了！",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毛君毛骨悚然",
+            "sleeptime": 1
+        },
+        {
+            "type": "有头像的对话",
+            "touxiang": "惊讶头像",
+            "duihua": "闹鬼了",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通对话",
+            "touxiang": "无",
+            "duihua": "毫无疑问，现在的情况很危急。",
+            "sleeptime": 1
+        },
+        {
+            "type": "普通选项",
+            "xuanxiang_type": "nomal",
+            "text": "待在原地，静待变化",
+            "sleeptime": 1,
+            "changjin": "对话剧情",
+            "juqin":"开始对话剧情3"
+        },
+        {
+            "type": "普通选项",
+            "xuanxiang_type": "nomal",
+            "text": "跑，跑得远远的",
+            "sleeptime": 1,
+            "changjin": "对话剧情",
+            "juqin":"开始对话剧情3"
+        }
+    ]
+}
